@@ -1,3 +1,5 @@
+from bgpmon import *
+
 def main():
 	try: from suds.client import Client
 	except: print("Requires suds (suds-jurko)");exit(0)
