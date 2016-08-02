@@ -10,5 +10,6 @@ or
 ```
 git clone https://github.com/brettkrueger/bgpmon.git
 cd bgpmon
+python setup.py build
 python setup.py install
 ```
