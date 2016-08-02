@@ -1,5 +1,5 @@
 # bgpmon
-A Python wrapper for the bgpmon SOAP API.
+A Python wrapper for the bgpmon (https://bgpmon.net) SOAP API.
 
 ###How to install
 ```
