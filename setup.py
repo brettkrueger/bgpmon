@@ -12,8 +12,8 @@ setup(
 	url = "https://github.com/brettkrueger/bgpmon/bgpmon/",
 	packages=find_packages(exclude=['docs','tests']),
 	classifiers=[
-        "Development Status :: 3 - Alpha",
-        "License :: OSI Approved :: GNU General Public License (GPL)",
+		"Development Status :: 3 - Alpha",
+		"License :: OSI Approved :: GNU General Public License (GPL)",
 		"Programming Language :: Python :: 2",
 		"Programming Language :: Python :: 2.7"
     ],
