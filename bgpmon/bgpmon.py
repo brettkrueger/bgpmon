@@ -2,8 +2,10 @@ class BGPMon():
 	def __init__(self):
 		try: from suds.client import Client
 		except: print("Requires suds (suds-jurko)");exit(0)
+		self.proxy_settings = dict(http='http://user:password@host:port',
+                      https='http://user:password@host:port')
 		self.url="https://api.bgpmon.net/soap/server.php?wsdl"
-		self.client=Client(self.url)
+		self.client=Client(self.url, proxy=self.proxy_settings)
 
 	def addPrefixAdditionalOriginAS(self,email,passwd,prefix,origin):
 		return self.client.service.addPrefixAdditionalOriginAS(email,passwd,prefix,origin)
