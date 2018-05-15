@@ -40,4 +40,11 @@ sudo python setup.py install
 >>> from bgpmon import *
 >>> bgpmon=BGPMon('http://user:password@host:port')
 >>> print(bgpmon.getIpInfo(email,passwd,"103.201.129.0"))
+[(Prefix_info){
+   prefix = "103.201.129.0/24"
+   prefix_description = "xTom Japan"
+   country_code = "unknown"
+   origin_as = "134829"
+   origin_as_name = "xTom Global Anycast Services"
+ }]
 ```
