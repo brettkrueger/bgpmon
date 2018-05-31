@@ -1,5 +1,8 @@
 # bgpmon
-A Python wrapper for the bgpmon (https://bgpmon.net) SOAP API.
+
+[![Build Status](https://travis-ci.org/MustyMouse/bgpmon.svg?branch=master)](https://travis-ci.org/MustyMouse/bgpmon)  
+
+A Python wrapper for the bgpmon (https://bgpmon.net) SOAP API.  
 
 ### How to install
 ```
