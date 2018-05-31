@@ -2,7 +2,9 @@
 # https://fedorahosted.org/suds/wiki/Documentation
 # https://docs.python.org/2/library/unittest.html
 # https://portal.bgpmon.net/bgpmonapi.php
-try: from bgpmon import *
+#try: from bgpmon import *
+#except: print("Failed to import")
+try: import bgpmon
 except: print("Failed to import")
 email='demo@bgpmon.net'
 passwd='demo'
