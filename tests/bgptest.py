@@ -2,15 +2,13 @@
 # https://fedorahosted.org/suds/wiki/Documentation
 # https://docs.python.org/2/library/unittest.html
 # https://portal.bgpmon.net/bgpmonapi.php
-#try: from bgpmon import *
-#except: print("Failed to import")
-try: import bgpmon
+try: from bgpmon import *
 except: print("Failed to import")
 email='demo@bgpmon.net'
 passwd='demo'
 
 ip="103.201.129.0/24"
-bgpmon=bgpmon.BGPMon()
+bgpmon=BGPMon()
 print("\ngetIpInfo():\n"+str(bgpmon.getIpInfo(email,passwd,ip)))
 print("\ngetASName():\n"+str(bgpmon.getASName(email,passwd,"AS134829")))
 print("\ngetPrefixesForAS():\n"+str(bgpmon.getPrefixesForAS(email,passwd,int(134829))))
