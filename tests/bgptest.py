@@ -8,7 +8,7 @@ email='demo@bgpmon.net'
 passwd='demo'
 
 ip="103.201.129.0/24"
-bgpmon=BGPMon()
+bgpmon=bgpmon.BGPMon()
 print("\ngetIpInfo():\n"+str(bgpmon.getIpInfo(email,passwd,ip)))
 print("\ngetASName():\n"+str(bgpmon.getASName(email,passwd,"AS134829")))
 print("\ngetPrefixesForAS():\n"+str(bgpmon.getPrefixesForAS(email,passwd,int(134829))))
